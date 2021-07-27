@@ -1,6 +1,6 @@
-# prog2-lista01
+# prog2-lista01-multi
 
-*Programação II - Lista 01 - Prof. Igor Machado Coelho*
+*Programação II - Lista 01 (MULTI ARQUIVOS)- Prof. Igor Machado Coelho*
 
 ## Nome do Aluno
 
@@ -22,20 +22,20 @@ A lista de exercícios **Lista 01** (da profa. Karina) está disponível no repo
 ## Instruções
 
 
-- Você deve alterar APENAS os arquivos `aluno.hpp` e `README.md`!
-   * No arquivo `aluno.hpp` coloque suas implementações, e no `README.md` coloque o seu nome completo.
+- Você deve alterar APENAS os arquivos `aluno_ex7.hpp` a `aluno_ex12.hpp` e `README.md`!
+   * No arquivo `aluno_ex*.hpp` coloque suas implementações, e no `README.md` coloque o seu nome completo.
 
 Explicações sobre os demais arquivos:
 
-- o arquivo `teste.cpp` contém os testes necessários para a lista de exercícios (NÃO EDITE!)
+- o arquivo `teste_ex*.cpp` contém os testes necessários para a lista de exercícios (NÃO EDITE!)
 - o arquivo `catch.hpp` contém a biblioteca de testes CATCH2 (NÃO EDITE!)
 - o arquivo `makefile` contém os comandos de execução da lista (NÃO EDITE!)
-- o arquivo `appTeste` será gerado após compilação (caso queira fazer testes localmente, basta executá-lo)
+- o arquivo `appTeste*` será gerado após compilação (caso queira fazer testes localmente, basta executá-lo)
 
 ## Comando de Testes
 
 - Comando para construir e executar os testes: `make test`
-    * Se já estiver construído, basta executar: `./appTeste`
+    * Se já estiver construído, basta executar: `./appTestes`
 
 ## Notas
 
