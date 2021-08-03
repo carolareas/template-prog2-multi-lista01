@@ -9,5 +9,22 @@
 int
 exercicio7(int n)
 {
-  return 10;
+  int a, b, aux, i;
+  a = 0;
+  b = 1;
+  if (n == 0){
+    return 0;
+  }
+if (n == 1){
+  return 1;
+}
+    for(i = 0; i < n - 1 ; i++) {
+
+        aux = a + b;
+        a = b;
+        b = aux;
+
+
+    }
+  return(aux);
 }
