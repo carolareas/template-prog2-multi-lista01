@@ -8,5 +8,13 @@
 int
 exercicio8(int n)
 {
-  return 0;
+   int i = 0;
+   while(n != 0)
+   {
+      i = i * 10;
+      i = i + n%10;
+      n = n/10;
+   }
+
+   return i;
 }
